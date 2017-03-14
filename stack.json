@@ -63,7 +63,7 @@
                                                        	"mkdir -p /etc/chef\n",
 							"echo 'environment=::ENV::'>/etc/chef/.envdata\n",
 							"echo 'component=::COMP::'>>/etc/chef/.envdata\n",
-							"sudo yum -y install wget\n",
+							"yum install -y wget\n",
 							 "cd /tmp\n",
 							"sudo wget http://54.172.235.186/bootchef.sh\n",
 							"chmod +x bootchef.sh\n",
