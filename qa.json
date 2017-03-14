@@ -13,7 +13,7 @@
    },
   {
      "ParameterKey": "SubnetId",
-    "ParameterValue": "subnet-03e0b158f"
+    "ParameterValue": "subnet-e5575dac"
   },
   {
     "ParameterKey": "InstanceSecurityGroup",
