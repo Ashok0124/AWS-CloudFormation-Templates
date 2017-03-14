@@ -63,9 +63,9 @@
                                                        	"mkdir -p /etc/chef\n",
 							"echo 'environment=::ENV::'>/etc/chef/.envdata\n",
 							"echo 'component=::COMP::'>>/etc/chef/.envdata\n",
-							"yum -y install wget\n",
+							"sudo yum -y install wget\n",
 							 "cd /tmp\n",
-							"wget http://54.172.235.186/bootchef.sh\n",
+							"sudo wget http://54.172.235.186/bootchef.sh\n",
 							"chmod +x bootchef.sh\n",
 							"sh bootchef.sh\n",
 							 "/opt/aws/bin/cfn-signal -e 0 -r \"ChefClient setup complete\" '", {
